@@ -1,5 +1,6 @@
 <?php
 
+function getNavBar() {
 $navbarHtml = <<<HTML
     <nav class="nav container">
         <a href="#" class="nav__logo">ASOUTHERNCAT</a>
@@ -58,4 +59,6 @@ $navbarHtml = <<<HTML
 
 HTML;
 
-echo $navbarHtml;
+return $navbarHtml;
+
+}
