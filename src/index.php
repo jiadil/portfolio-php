@@ -8,6 +8,7 @@
 </head>
 <body>
     <?php echo "yess!sss";
+    include("./navbar.php");
     ?>
     
 </body>
