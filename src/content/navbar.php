@@ -1,7 +1,7 @@
 <nav class="nav container">
     <a href="#" class="tl-nav-title">TIAN</a>
 
-    <div class="tl-nav-menu" id="nav-menu">
+    <div class="tl-nav-menu" id="tl-nav-menu">
         <ul class="tl-nav-menu-item-list grid">
             <li class="tl-nav-menu-item">
                 <div class="tl-nav-menu-item-wrapper">
@@ -43,23 +43,14 @@
                     </a>
                 </div>
             </li>
-
-            <li class="tl-nav-menu-item">
-                <div class="tl-nav-menu-item-link" id="translate" value="en">
-                    <svg class="icon tl-nav-menu-item-icon-svg" aria-hidden="true">
-                        <use xlink:href="#icon-fanyi"></use>
-                    </svg>
-                    <a class="=tl-nav-menu-item-link" id="nav__translate">Translate</a>
-                </div>
-            </li>
         </ul>
 
-        <i class="uil uil-times tl-nav-menu-close" id="nav-close"></i>
+        <i class="uil uil-times tl-nav-menu-close" id="tl-nav-menu-close"></i>
     </div>
 
     <div class="tl-nav-button">
-        <i class="uil uil-moon change-theme" id="theme-button"></i>
-        <div class="tl-nav-toggle" id="nav-toggle">
+        <i class="uil uil-moon tl-nav-button-change-theme" id="tl-nav-button-change-theme"></i>
+        <div class="tl-nav-button-toggle" id="tl-nav-button-toggle">
         <i class="uil uil-apps"></i>
         </div>
     </div>

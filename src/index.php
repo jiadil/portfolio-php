@@ -24,7 +24,7 @@
     
 </head>
 <body>
-    <header class="header scroll-header" id="header">
+    <header class="header" id="header">
     <?php
     include("./content/navbar.php");
     ?>

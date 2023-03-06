@@ -155,14 +155,7 @@ img {
   gap: 1.5rem;
 }
 
-.header {
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: var(--z-fixed);
-  background-color: var(--body-color);
-}
+
 
 
 
@@ -848,10 +841,7 @@ img {
       .section__subtitle {
           margin-bottom: 4rem;
       }
-      .header {
-          top: 0;
-          bottom: initial;
-      }
+      
 
       .header,
       .main,
@@ -1001,14 +991,5 @@ img {
   }
 }
 
-/* show menu */
-.show-menu{
-  bottom: 0;
-}
-
-  /* Active link */
-  .active-link {
-    color: var(--first-color);
-  }
 
     
