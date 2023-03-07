@@ -1,4 +1,4 @@
-
+<main class="main">
         <section class="home section" id="home">
         <div class="home__container container grid">
           <div class="home__content grid">
@@ -569,3 +569,4 @@
       </section>
 
 
+      </main>

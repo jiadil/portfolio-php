@@ -24,23 +24,11 @@
     
 </head>
 <body>
-    <header class="header" id="header">
-    <?php
-    include("./content/navbar.php");
-    ?>
-    </header>
-
-    <main class="main">
-    <?php
-    include("./content/main.php");
-    ?>
-    </main>
-
-    <footer class="footer">
-    <?php
-    echo include("./content/footer.php");
-    ?>
-    </footer>
+    
+    <?php include("./content/navbar.php");?>
+    <?php include("./content/main.php"); ?>
+    <?php include("./content/footer.php"); ?>
+    
 
 
     <!--==================== SCROLL TOP ====================-->
