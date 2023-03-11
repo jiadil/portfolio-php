@@ -10,7 +10,7 @@
                     <i class="uil uil-brackets-curly skills__icon"></i>
 
                     <div>
-                        <h1 class="skills__title" i18n="home__subtitle">
+                        <h1 class="skills__title" i18n="tl-home-intro-text-subtitle">
                             Frontend developer
                         </h1>
                         <span class="skills__subtitle" i18n="skills__years">More than * years</span>

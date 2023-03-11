@@ -14,9 +14,9 @@
                     <p class="portfolio__description" i18n="portfolio1__description">
                         Website adaptable to all devices, with ui components and animated interactions.
                     </p>
-                    <a href="https://gitee.com/asoutherncat/" target="_blank" class="button button--flex button--small portfolio__button">
+                    <a href="https://gitee.com/asoutherncat/" target="_blank" class="button tl-button-flex button--small portfolio__button">
                         Demo
-                        <i class="uil uil-arrow-right button__icon"></i>
+                        <i class="uil uil-arrow-right tl-button-icon"></i>
                     </a>
                 </div>
             </div>
@@ -31,9 +31,9 @@
                     <p class="portfolio__description" i18n="portfolio2__description">
                         Website adaptable to all devices, with ui components and animated interactions.
                     </p>
-                    <a href="https://gitee.com/asoutherncat/" target="_blank" class="button button--flex button--small portfolio__button">
+                    <a href="https://gitee.com/asoutherncat/" target="_blank" class="button tl-button-flex button--small portfolio__button">
                         Demo
-                        <i class="uil uil-arrow-right button__icon"></i>
+                        <i class="uil uil-arrow-right tl-button-icon"></i>
                     </a>
                 </div>
             </div>
@@ -48,9 +48,9 @@
                     <p class="portfolio__description" i18n="portfolio3__description">
                         Website adaptable to all devices, with ui components and animated interactions.
                     </p>
-                    <a href="https://gitee.com/asoutherncat/" target="_blank" class="button button--flex button--small portfolio__button">
+                    <a href="https://gitee.com/asoutherncat/" target="_blank" class="button tl-button-flex button--small portfolio__button">
                         Demo
-                        <i class="uil uil-arrow-right button__icon"></i>
+                        <i class="uil uil-arrow-right tl-button-icon"></i>
                     </a>
                 </div>
             </div>

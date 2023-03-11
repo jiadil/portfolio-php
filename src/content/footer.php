@@ -3,12 +3,12 @@
         <div class="tl-footer-title">
             <p>TIAN</p>
 
-            <div class="tl-footer-item-icon-list">
+            <div class="tl-footer-social-icon-list">
                 <a href="https://github.com/jiadil">
-                    <i class="uil uil-github tl-footer-item-icon"></i>
+                    <i class="uil uil-github-alt tl-footer-social-icon"></i>
                 </a>
                 <a href="https://www.linkedin.com/in/jiadil1010/">
-                    <i class="uil uil-linkedin tl-footer-item-icon"></i>
+                    <i class="uil uil-linkedin-alt tl-footer-social-icon"></i>
                 </a>
             </div>
         </div>

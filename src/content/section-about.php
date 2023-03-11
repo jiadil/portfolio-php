@@ -29,9 +29,9 @@
         </div>
 
         <div class="about__buttons">
-            <a download="" href="assets/pdf/简历.pdf" class="button button--flex">
+            <a download="" href="assets/pdf/简历.pdf" class="button tl-button-flex">
                 <span i18n="download">Download CV</span>
-                <i class="uil uil-download-alt button__icon"></i>
+                <i class="uil uil-download-alt tl-button-icon"></i>
             </a>
         </div>
         </div>

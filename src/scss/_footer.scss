@@ -1,14 +1,13 @@
 /******************************************************************************
  * Footer
  ******************************************************************************/
-/////////////////////////////////////////////////////////////
 .footer {
     padding: 4rem 0 3rem;
     background-color: var(--first-color-second);
     
     .tl-footer-title,
     .tl-footer-item-link,
-    .tl-footer-item-icon {
+    .tl-footer-social-icon {
         color: #FFF;
         fill: #FFF;
     }
@@ -20,7 +19,7 @@
             font-size: var(--h1-font-size);
             margin-bottom: var(--mb-0-25);
 
-            .tl-footer-item-icon {
+            .tl-footer-social-icon {
                 font-size: 1.35rem;
                 margin-right: var(--mb-1-5);
                 overflow: hidden;
@@ -50,7 +49,8 @@
     }
 }
 
-
+/////////////////////////////////////////////////////////////
+/// Media
 // >= 568px
 @media screen and (min-width: 568px) {
     .tl-footer-content {
@@ -70,7 +70,7 @@
                 flex-direction: row;
                 column-gap: 2rem;
             }
-            .tl-footer-item-icon-list {
+            .tl-footer-social-icon-list {
                 justify-self: flex-end;
             }
         }
