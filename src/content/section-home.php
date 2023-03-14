@@ -29,7 +29,7 @@
         <div class="tl-home-scroll">
             <a href="#about" class="tl-home-scroll-button tl-button-flex">
                 <i class="uil uil-mouse-alt-2 tl-home-scroll-mouse"></i>
-                <span class="tl-home-scroll-name" i18n="tl-home-scroll-name">Scroll down</span>
+                <span class="tl-home-scroll-name">Scroll down</span>
                 <i class="uil uil-arrow-down tl-home-scroll-arrow"></i>
             </a>
         </div>
