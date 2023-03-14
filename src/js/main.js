@@ -89,13 +89,26 @@ window.addEventListener("scroll", () => {
     }
 });
 
-
-
-
-
 /******************************************************************************
- * 
+ * Skills
  ******************************************************************************/
+const skillsContent = document.querySelectorAll(".tl-skills-content");
+const skillsHeaders = document.querySelectorAll(".tl-skills-head");
+skillsHeaders.forEach(skillHeader => {
+    skillHeader.addEventListener("click", () => {
+        const defaultParentClass = skillHeader.parentNode.className;
+
+        for (i = 0; i < skillsContent.length; i++) {
+            skillsContent[i].className = "tl-skills-content tl-skills-close";
+        }
+        
+        if (defaultParentClass === "tl-skills-content tl-skills-close") {
+            skillHeader.parentNode.className = "tl-skills-content tl-skills-open";
+        }
+    });
+});
+
+
 
 /*==================== SHOW SCROLL UP ====================*/ 
 function scrollUp(){
@@ -104,24 +117,7 @@ function scrollUp(){
   }
   window.addEventListener("scroll", scrollUp)
 
-/*==================== ACCORDION SKILLS ====================*/
-const skillsContent = document.getElementsByClassName("skills__content"),
-      skillsHeader = document.querySelectorAll(".skills__header")
 
-      function toggleSkills() {
-        let itemClass = this.parentNode.className
-
-        for(i = 0; i < skillsContent.length; i++) {
-          skillsContent[i].className = "skills__content skills__close"
-        }
-        if(itemClass === "skills__content skills__close"){
-          this.parentNode.className = "skills__content skills__open"
-        }
-      }
-      
-      skillsHeader.forEach((el) => {
-        el.addEventListener("click", toggleSkills)
-      })
 
 /*==================== QUALIFICATION TABS ====================*/
 const tabs = document.querySelectorAll("[data-target]"),

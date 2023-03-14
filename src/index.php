@@ -11,6 +11,7 @@
     <!-- style.css CSS Script -->
     <link rel="stylesheet" href="/style.css">
 
+    <script src="https://kit.fontawesome.com/02d3434a8a.js" crossorigin="anonymous"></script>
 
 
 

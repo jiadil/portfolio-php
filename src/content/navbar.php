@@ -8,7 +8,7 @@
                     <div class="tl-nav-menu-item-wrapper">
                         <a href="#home" class="tl-nav-menu-item-link">
                             <i class="uil uil-estate tl-nav-menu-item-icon"></i>
-                            <p i18n="home">Home</p>
+                            <p>Home</p>
                         </a>
                     </div>
                 </li>
@@ -16,7 +16,7 @@
                     <div class="tl-nav-menu-item-wrapper">
                         <a href="#about" class="tl-nav-menu-item-link">
                             <i class="uil uil-user tl-nav-menu-item-icon"></i>
-                            <p i18n="about">About</p>
+                            <p>About</p>
                         </a>
                     </div>
                 </li>
@@ -24,7 +24,7 @@
                     <div class="tl-nav-menu-item-wrapper">
                         <a href="#skills" class="tl-nav-menu-item-link">
                             <i class="uil uil-file-alt tl-nav-menu-item-icon"></i>
-                            <p i18n="skills">Skills</p>
+                            <p>Skills</p>
                         </a>
                     </div>
                 </li>
@@ -32,7 +32,7 @@
                     <div class="tl-nav-menu-item-wrapper">
                         <a href="#portfolio" class="tl-nav-menu-item-link">
                             <i class="uil uil-scenery tl-nav-menu-item-icon"></i>
-                            <p i18n="portfolio">Portfolio</p>
+                            <p>Portfolio</p>
                         </a>
                     </div>
                 </li>
@@ -40,7 +40,7 @@
                     <div class="tl-nav-menu-item-wrapper">
                         <a href="#contact" class="tl-nav-menu-item-link">
                             <i class="uil uil-message tl-nav-menu-item-icon"></i>
-                            <p i18n="contact">Contact Me</p>
+                            <p>Contact Me</p>
                         </a>
                     </div>
                 </li>

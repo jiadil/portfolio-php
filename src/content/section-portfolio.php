@@ -1,6 +1,6 @@
 <section class="portfolio section" id="portfolio">
-    <h2 class="section__title" i18n="portfolio__title">Portfolio</h2>
-    <span class="section__subtitle" i18n="portfolio__subtitle">Most recent works</span>
+    <h2 class="tl-section-title" i18n="portfolio__title">Portfolio</h2>
+    <span class="tl-section-subtitle" i18n="portfolio__subtitle">Most recent works</span>
 
     <div class="portfolio__container container swiper-container">
         <div class="swiper-wrapper">
@@ -71,8 +71,8 @@
 
 <!--==================== CONTACT ME ====================-->
 <section class="contact section" id="contact">
-    <h2 class="section__title" i18n="contact__title">Contact me</h2>
-    <span class="section__subtitle" i18n="contact__subtitle">Get in touch</span>
+    <h2 class="tl-section-title" i18n="contact__title">Contact me</h2>
+    <span class="tl-section-subtitle" i18n="contact__subtitle">Get in touch</span>
 
     <div class="contact__container container grid">
         <div>
