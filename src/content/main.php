@@ -8,7 +8,7 @@
     <?php include("./content/section-skills.php");?>
 
     <!--==================== QUALIFICATION ====================-->
-    <?php include("./content/section-qualifications.php");?>
+    <?php include("./content/section-qualification.php");?>
     
     <!--==================== PORTFOLIO ====================-->
     <?php include("./content/section-portfolio.php");?>

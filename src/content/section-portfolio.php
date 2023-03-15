@@ -1,12 +1,12 @@
-<section class="portfolio section" id="portfolio">
+<section class="portfolio tl-section" id="portfolio">
     <h2 class="tl-section-title" i18n="portfolio__title">Portfolio</h2>
     <span class="tl-section-subtitle" i18n="portfolio__subtitle">Most recent works</span>
 
-    <div class="portfolio__container container swiper-container">
+    <div class="portfolio__container tl-container swiper-container">
         <div class="swiper-wrapper">
             <!--==================== PORTFOLIO 1 ====================-->
 
-            <div class="portfolio__content grid swiper-slide">
+            <div class="portfolio__content tl-grid swiper-slide">
                 <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img"/>
 
                 <div class="portfolio_">
@@ -23,7 +23,7 @@
 
             <!--==================== PORTFOLIO 2 ====================-->
 
-            <div class="portfolio__content grid swiper-slide">
+            <div class="portfolio__content tl-grid swiper-slide">
                 <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img"/>
 
                 <div class="portfolio_">
@@ -40,7 +40,7 @@
 
             <!--==================== PORTFOLIO 3 ====================-->
 
-            <div class="portfolio__content grid swiper-slide">
+            <div class="portfolio__content tl-grid swiper-slide">
                 <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img"/>
 
                 <div class="portfolio_">
@@ -70,11 +70,11 @@
 </section>
 
 <!--==================== CONTACT ME ====================-->
-<section class="contact section" id="contact">
+<section class="contact tl-section" id="contact">
     <h2 class="tl-section-title" i18n="contact__title">Contact me</h2>
     <span class="tl-section-subtitle" i18n="contact__subtitle">Get in touch</span>
 
-    <div class="contact__container container grid">
+    <div class="contact__container tl-container tl-grid">
         <div>
             <div class="contact__information">
                 <i class="uil uil-phone-alt contact__icon"></i>

@@ -1,9 +1,9 @@
-<section class="about section" id="about">
+<section class="about tl-section" id="about">
     <h2 class="tl-section-title">About Me</h2>
     
     <span class="tl-section-subtitle">My introduction</span>
     
-    <div class="tl-about-container container grid">
+    <div class="tl-about-container tl-container tl-grid">
         <img class="tl-about-image" src="images/IMG_0258.JPG" alt="">
 
         <div class="tl-about-data">

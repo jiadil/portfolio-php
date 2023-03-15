@@ -1,5 +1,5 @@
-<footer class="footer">
-    <div class="tl-footer-content container grid">
+<footer class="tl-footer">
+    <div class="tl-footer-content tl-container tl-grid">
         <div class="tl-footer-title">
             <p>TIAN</p>
 

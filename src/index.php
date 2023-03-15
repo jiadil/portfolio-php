@@ -5,24 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Argon CSS -->
+    <link type="text/css" href="/css/argon-design-system.min.css" rel="stylesheet">
+
     <!-- Unicorns CSS Script -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
-    <!-- style.css CSS Script -->
-    <link rel="stylesheet" href="/style.css">
-
+    <!-- Font Awesome CSS Script -->
     <script src="https://kit.fontawesome.com/02d3434a8a.js" crossorigin="anonymous"></script>
 
+    <!-- style.css CSS Script -->
+    <link rel="stylesheet" href="/css/style.css">
 
-
-    <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="/swiper-bundle.min.css" />
-
-    
     <title>Jiadi Luo</title>
-
-    
-    
 </head>
 <body>
     
@@ -36,21 +31,9 @@
     <a href="#" class="scrollup" id="scroll-up">
       <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
-
-
-    <!--==================== SWIPER JS ====================-->
-    <script src="js/swiper-bundle.min.js"></script>
-
-    <!-- iconfont JS -->
-    <script src="js/iconfont.js"></script>
-    <!-- jquery -->
-    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="js/jquery.i18n.min.js"></script>
+    
     <!--==================== MAIN JS ====================-->
     <script src="js/main.js"></script>
-
-    <!-- translate JS -->
-    <script src="js/cn-en-translate.js"></script>
     
 
 

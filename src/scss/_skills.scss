@@ -189,8 +189,12 @@
                 position: relative;
                 object-fit: cover;
                 text-align: center;
-                transform: translate(0%, -30%);
+                transform: translate(0%, -32%);
                 transition: .5s;
+
+                h2 {
+                    font-size: 1.7rem;
+                }
             }
         }
     
@@ -211,13 +215,13 @@
             h2 {
                 font-weight: var(--font-medium);
                 color: var(--text-color);
+                font-size: 1.5rem;
             }
         }
     }
 }
 
-
-.tl-skills-row {
+.tl-row {
     --bs-gutter-x: 1.5rem;
     --bs-gutter-y: 0;
     display: flex;
