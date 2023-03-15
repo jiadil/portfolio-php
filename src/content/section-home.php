@@ -1,6 +1,6 @@
-<section class="home section" id="home">
-    <div class="tl-home-container container grid">
-        <div class="tl-home-content grid">
+<section class="home tl-section" id="home">
+    <div class="tl-home-container tl-container tl-grid">
+        <div class="tl-home-content tl-grid">
             <div class="tl-home-social-icon-list">
                 <a href="https://github.com/jiadil" class="tl-home-social-icon">
                     <i class="uil uil-github-alt"></i>

@@ -1,10 +1,10 @@
-<section class="skills section" id="skills">
+<section class="skills tl-section" id="skills">
     <h2 class="tl-section-title">Skills</h2>
     
     <span class="tl-section-subtitle">My technical level</span>
 
-    <div class="tl-skills-container container grid">
-        <div class="tl-skills-row">
+    <div class="tl-skills-container tl-container tl-grid">
+        <div class="tl-row">
             <!-- Skill 1 -->
             <div class="tl-skills-card-container">
                 <div class="tl-skills-card tl-skills-card-shadow">
@@ -141,7 +141,7 @@
                     <i class="uil uil-angle-down tl-skills-dropdown-icon"></i>
                 </div>
 
-                <div class="tl-skills-dropdown-list grid">
+                <div class="tl-skills-dropdown-list tl-grid">
                     <div class="tl-skills-dropdown-item">
                         <div class="tl-skills-dropdown-item-title">
                             <h3 class="tl-skills-dropdown-item-name">HTML</h3>
@@ -196,7 +196,7 @@
                     <i class="uil uil-angle-down tl-skills-dropdown-icon"></i>
                 </div>
 
-                <div class="tl-skills-dropdown-list grid">
+                <div class="tl-skills-dropdown-list tl-grid">
                     <div class="tl-skills-dropdown-item">
                         <div class="tl-skills-dropdown-item-title">
                             <h3 class="tl-skills-dropdown-item-name">Java</h3>

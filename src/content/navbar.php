@@ -1,9 +1,9 @@
-<header class="header" id="header">
-    <nav class="nav container">
+<header class="tl-header" id="header">
+    <nav class="tl-nav tl-container">
         <a href="#" class="tl-nav-title">TIAN</a>
 
         <div class="tl-nav-menu" id="tl-nav-menu">
-            <ul class="tl-nav-menu-item-list grid">
+            <ul class="tl-nav-menu-item-list tl-grid">
                 <li class="tl-nav-menu-item">
                     <div class="tl-nav-menu-item-wrapper">
                         <a href="#home" class="tl-nav-menu-item-link">
@@ -25,6 +25,14 @@
                         <a href="#skills" class="tl-nav-menu-item-link">
                             <i class="uil uil-file-alt tl-nav-menu-item-icon"></i>
                             <p>Skills</p>
+                        </a>
+                    </div>
+                </li>
+                <li class="tl-nav-menu-item">
+                    <div class="tl-nav-menu-item-wrapper">
+                        <a href="#qualification" class="tl-nav-menu-item-link">
+                            <i class="uil uil-message tl-nav-menu-item-icon"></i>
+                            <p>Qualification</p>
                         </a>
                     </div>
                 </li>

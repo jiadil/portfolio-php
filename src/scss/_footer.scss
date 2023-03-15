@@ -1,7 +1,7 @@
 /******************************************************************************
  * Footer
  ******************************************************************************/
-.footer {
+.tl-footer {
     padding: 4rem 0 3rem;
     background-color: var(--first-color-second);
     
@@ -60,7 +60,7 @@
 
 // >= 768px
 @media screen and (min-width: 768px) {
-    .footer {
+    .tl-footer {
         padding: 5rem 0 3.5rem;
 
         .tl-footer-content {
@@ -83,7 +83,7 @@
 
 // >= 1024px
 @media screen and (min-width: 1024px) {
-    .footer .tl-footer-content {
+    .tl-footer .tl-footer-content {
         padding: 0;
     }
 }

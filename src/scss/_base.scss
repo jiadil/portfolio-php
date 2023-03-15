@@ -1,6 +1,9 @@
 /*==================== GOOGLE FONTS 字体====================*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
+/*
+Own: start with tl-
+*/
 /*==================== VARIABLES CSS ====================*/
 :root {
     --header-height: 3rem;
@@ -71,16 +74,26 @@
 
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
-  /* HSL color mode */
---first-color-second: hsl(var(--hue-color), 30%, 8%);
---title-color: hsl(var(--hue-color), 8%, 95%);
---text-color: hsl(var(--hue-color), 8%, 45%);
---text-color-light: hsl(var(--hue-color), 8%, 75%);
---input-color: hsl(var(--hue-color), 29%, 16%);
---body-color: hsl(var(--hue-color), 28%, 12%);
---container-color: hsl(var(--hue-color), 29%, 16%);
---scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
---scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
+    /* HSL Color Mode */
+    --first-color: hsl(var(--hue-color), 69%, 58%); /* Not changed */
+    --first-color-second: hsl(var(--hue-color), 30%, 8%);
+    --first-color-alt: hsl(var(--hue-color), 55%, 50%); /* Not changed */
+    --first-color-lighter: hsl(var(--hue-color), 90%, 82%); /* Not changed */
+
+    --title-color: hsl(var(--hue-color), 10%, 95%);
+    --text-color: hsl(var(--hue-color), 10%, 75%);
+    --mainText: hsl(var(--hue-color), 10%, 75%);
+    --text-color-light: hsl(var(--hue-color), 10%, 65%); /* Not changed */
+    --input-color: hsl(var(--hue-color), 29%, 16%);
+    --body-color: hsl(var(--hue-color), 30%, 14%);
+    --container-color: hsl(var(--hue-color), 30%, 16%);
+    --scroll-bar-color: hsl(var(--hue-color), 10%, 50%);
+    --scroll-thumb-color: hsl(var(--hue-color), 15%, 32%);
+
+    --background-body-color: rgba(255, 255, 255, 0.068);
+    --border-color: rgba(255, 255, 255, 0.425);
+    --border-style: solid;
+    --footer-color: hsl(250, 53%, 18%);
 }
 
 
@@ -97,10 +110,10 @@ html {
 }
 
 body {
+  margin: 0 0 var(--header-height) 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
-  color: var(--text-color);
 }
 
 h1, h2, h3, h4 {
@@ -110,6 +123,7 @@ h1, h2, h3, h4 {
 
 ul {
   list-style: none;
+  margin-bottom: 0px;
 }
 
 a {
@@ -121,8 +135,12 @@ img {
   height: auto;
 }
 
+p {
+  margin-bottom: 0px;
+}
+
 /*==================== REUSABLE CSS CLASSES ====================*/
-.section {
+.tl-section {
   padding: 3rem 0 4rem;
 }
 
@@ -143,13 +161,13 @@ img {
 }
 
 /*==================== LAYOUT ====================*/
-.container {
+.tl-container {
   max-width: 768px;
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
 }
 
-.grid {
+.tl-grid {
   display: grid;
   gap: 1.5rem;
 }
@@ -207,86 +225,6 @@ img {
 
 
 
-/*==================== QUALIFICATION ====================*/
-.qualification__tabs {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: var(--mb-2)
-}
-
-.qualification__button {
-  font-size: var(--h3-font-size);
-  font-weight: var(--font-medium);
-  cursor: pointer
-}
-
-.qualification__button:hover {
-  color: var(--first-color);
-}
-
-.qualification__icon {
-  font-size: 1.8rem;
-  margin-right: var(--mb-0-25);
-}
-
-.qualification__data {
-  display: grid;
-  grid-template-columns: 1fr max-content 1fr;
-  column-gap: 1.5rem;
-}
-
-.qualification__title {
-  font-size: var(--normal-font-size);
-  font-weight: var(--font-medium);
-}
-
-.qualification__subtitle {
-  display: inline-block;
-  font-size: var(--small-font-size);
-  margin-bottom: var(--mb-1);
-}
-
-.qualification__calendar {
-  font-size: var(--smaller-font-size);
-  color: var(--text-color-light);
-  /* margin-bottom: var(--mb-1) */
-
-}
-
-.qualification__rounder {
-  display: inline-block;
-  width: 13px;
-  height: 13px;
-  background-color: var(--first-color);
-  border-radius: 50%;
-}
-
-.qualification__line {
-  display: block;
-  width: 1px;
-  height: 100%;
-  background-color: var(--first-color);
-  transform: translate(6px, -7px)
-}
-
-.qualification__content[data-content] {
-  display: none;
-
-}
-
-.qualification__active[data-content] {
-  display: block;
-}
-
-.qualification__button.qualification__active {
-  color: var(--first-color)
-}
-
-/* Active Modal */
-.active-modal {
-  opacity: 1;
-  visibility: visible;
-}
 
 
 /*==================== PORTFOLIO ====================*/
@@ -447,12 +385,9 @@ img {
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
 @media screen and (max-width: 350px) {
-  .container {
+  .tl-container {
       margin-left: var(--mb-1);
       margin-right: var(--mb-1);
-  }
-  .qualification__data {
-      gap: .5rem;
   }
 
   .services__container {
@@ -497,14 +432,9 @@ img {
       grid-template-columns: repeat(2, 1fr);
   }
 
-  .qualification__sections {
-      display: grid;
-      grid-template-columns: .6fr;
-      justify-content: center;
-  }
 
   @media screen and (min-width: 768px) {
-      .container {
+      .tl-container {
           margin-left: auto;
           margin-right: auto;
       }
@@ -512,7 +442,7 @@ img {
       .body {
           margin: 0;
       }
-      .section {
+      .tl-section {
           padding: 6rem 0 2rem;
       }
       .tl-section-subtitle {
@@ -525,20 +455,6 @@ img {
       }
 
       
-
-      
-      
-      .qualification__tabs {
-          justify-content: center;
-
-      }
-      .qualification__button {
-          margin: 0 var(--mb-1)
-      }
-
-      .qualification__sections {
-          grid-template-columns: .5fr
-      }
       .services__container {
           grid-template-columns: repeat(3, 218px);
           justify-content: center;
@@ -611,3 +527,8 @@ img {
 
 
     
+
+
+
+
+
