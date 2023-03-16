@@ -13,7 +13,10 @@
             <div class="tl-home-intro">
                 <img class="tl-home-intro-image" src="images/IMG_0258.JPG" alt="Italian Trulli">
                 <div class="tl-home-intro-text">
-                    <h1 class="tl-home-intro-text-title">Hi, I'm Tian</h1>
+                    <h1 class="tl-home-intro-text-title">
+                        Hi, I'm <div id="typewriter"></div>
+                    </h1>
+                    
                     <h3 class="tl-home-intro-text-subtitle">Student at Simon Fraser University</h3>
                     <p class="tl-home-intro-text-description">
                         I am an SFU student who is now pursuing my double degree in computing science and health sciences.

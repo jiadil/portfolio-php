@@ -1,3 +1,7 @@
+<a href="#" class="tl-scroll-up" id="tl-scroll-up">
+    <i class="tl-scroll-up-icon uil uil-arrow-up"></i>
+</a>
+
 <footer class="tl-footer">
     <div class="tl-footer-content tl-container tl-grid">
         <div class="tl-footer-title">

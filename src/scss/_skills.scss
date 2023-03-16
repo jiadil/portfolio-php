@@ -1,144 +1,6 @@
 /******************************************************************************
 * Skills
 ******************************************************************************/
-.tl-skills-container {
-    row-gap: 0;
-
-    .tl-skills-close .tl-skills-dropdown-list {
-        height: 0;
-        overflow: hidden;
-    }
-    
-    .tl-skills-open .tl-skills-dropdown-list {
-        height: max-content;
-        margin-bottom: var(--mb-2-5);
-    }
-    
-    .tl-skills-open .tl-skills-dropdown-icon {
-        transform: rotate(-180deg);
-    }
-
-    .tl-skills-head {
-        display: flex;
-        align-items: center;
-        margin-bottom: var(--mb-2-5);
-        cursor: pointer;
-
-        .tl-skills-icon {
-            margin-right: var(--mb-0-75);
-            font-size: 2rem;
-            color: var(--first-color);
-        }
-        .tl-skills-title {
-            font-size: var(--h3-font-size);
-        }
-        .tl-skills-subtitle {
-            font-size: var(--small-font-size);
-            color: var(--text-color-light);
-        }
-        .tl-skills-dropdown-icon {
-            margin-left: auto;
-            transition: .4s;
-            font-size: 2rem;
-            color: var(--first-color);
-        }
-    }
-
-    .tl-skills-dropdown-list {
-        row-gap: 1.5rem;
-        padding-left: 2.7rem;
-        transition: .4s;
-
-        .tl-skills-dropdown-item-title {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: var(--mb-0-5);
-            .tl-skills-dropdown-item-name {
-                font-size: var(--normal-font-size);
-                font-weight: var(--font-medium);
-            }
-        }
-
-        .tl-skills-dropdown-item-bar {
-            background-color: var(--first-color-lighter);
-            height: 5px;
-            border-radius: .25rem;
-
-            .tl-skills-dropdown-item-percentage {
-                display: block;
-                background-color: var(--first-color);
-                height: 5px;
-                border-radius: .25rem;
-            }
-
-            .tl-skills-dropdown-item-html {
-                width: 60%;
-            }
-            
-            .tl-skills-dropdown-item-css{
-                width: 50%;
-            }
-            
-            .tl-skills-dropdown-item-js{
-                width: 30%;
-            }
-            
-            .tl-skills-dropdown-item-vue{
-                width: 10%;
-            }
-            
-            .tl-skills-dropdown-item-java{
-                width: 70%;
-            }
-            
-            .tl-skills-dropdown-item-python{
-                width: 50%;
-            }
-        }
-    }
-}
-
-/////////////////////////////////////////////////////////////
-/// Media
-// <= 350px
-@media screen and (max-width: 350px) {
-    .tl-skills-title {
-        font-size: var(--normal-font-size);
-    }
-}
-
-// <= 568px
-@media screen and (min-width: 568px) {
-    .skills_container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-
-// .tl-skills-container {
-//     display: flex;
-//     flex-direction: row;
-//     flex-wrap: wrap;
-//     box-sizing: border-box;
-//     text-align: center;
-
-//     .tl-skills-card-container {
-//         padding: 20px 35px;
-//         flex: 1 0 13em;
-//         box-sizing: border-box;
-//         box-shadow: 0 0 6px rgb(0 0 0 / 15%);
-//         border-radius: 10px;
-//         height: fit-content;
-//         display: flex;
-//         align-items: center;
-//         flex-direction: column;
-
-//         .tl-skills-card{
-//         }
-//     }
-
-// }
-
 .tl-skills-card-container {
     position: relative;
     display: grid;
@@ -234,3 +96,143 @@
 .tl-skills-card-shadow{
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
+
+// .tl-skills-container {
+//     row-gap: 0;
+
+    // .tl-skills-close .tl-skills-dropdown-list {
+    //     height: 0;
+    //     overflow: hidden;
+    // }
+    
+    // .tl-skills-open .tl-skills-dropdown-list {
+    //     height: max-content;
+    //     margin-bottom: var(--mb-2-5);
+    // }
+    
+    // .tl-skills-open .tl-skills-dropdown-icon {
+    //     transform: rotate(-180deg);
+    // }
+
+    // .tl-skills-head {
+    //     display: flex;
+    //     align-items: center;
+    //     margin-bottom: var(--mb-2-5);
+    //     cursor: pointer;
+
+    //     .tl-skills-icon {
+    //         margin-right: var(--mb-0-75);
+    //         font-size: 2rem;
+    //         color: var(--first-color);
+    //     }
+    //     .tl-skills-title {
+    //         font-size: var(--h3-font-size);
+    //     }
+    //     .tl-skills-subtitle {
+    //         font-size: var(--small-font-size);
+    //         color: var(--text-color-light);
+    //     }
+    //     .tl-skills-dropdown-icon {
+    //         margin-left: auto;
+    //         transition: .4s;
+    //         font-size: 2rem;
+    //         color: var(--first-color);
+    //     }
+    // }
+
+    // .tl-skills-dropdown-list {
+    //     row-gap: 1.5rem;
+    //     padding-left: 2.7rem;
+    //     transition: .4s;
+
+    //     .tl-skills-dropdown-item-title {
+    //         display: flex;
+    //         justify-content: space-between;
+    //         margin-bottom: var(--mb-0-5);
+    //         .tl-skills-dropdown-item-name {
+    //             font-size: var(--normal-font-size);
+    //             font-weight: var(--font-medium);
+    //         }
+    //     }
+
+    //     .tl-skills-dropdown-item-bar {
+    //         background-color: var(--first-color-lighter);
+    //         height: 5px;
+    //         border-radius: .25rem;
+
+    //         .tl-skills-dropdown-item-percentage {
+    //             display: block;
+    //             background-color: var(--first-color);
+    //             height: 5px;
+    //             border-radius: .25rem;
+    //         }
+
+    //         .tl-skills-dropdown-item-html {
+    //             width: 60%;
+    //         }
+            
+    //         .tl-skills-dropdown-item-css{
+    //             width: 50%;
+    //         }
+            
+    //         .tl-skills-dropdown-item-js{
+    //             width: 30%;
+    //         }
+            
+    //         .tl-skills-dropdown-item-vue{
+    //             width: 10%;
+    //         }
+            
+    //         .tl-skills-dropdown-item-java{
+    //             width: 70%;
+    //         }
+            
+    //         .tl-skills-dropdown-item-python{
+    //             width: 50%;
+    //         }
+    //     }
+    // }
+// }
+
+/////////////////////////////////////////////////////////////
+/// Media
+// <= 350px
+@media screen and (max-width: 350px) {
+    .tl-skills-title {
+        font-size: var(--normal-font-size);
+    }
+}
+
+// // <= 568px
+// @media screen and (min-width: 568px) {
+//     .skills_container {
+//         grid-template-columns: repeat(2, 1fr);
+//     }
+// }
+
+
+// .tl-skills-container {
+//     display: flex;
+//     flex-direction: row;
+//     flex-wrap: wrap;
+//     box-sizing: border-box;
+//     text-align: center;
+
+//     .tl-skills-card-container {
+//         padding: 20px 35px;
+//         flex: 1 0 13em;
+//         box-sizing: border-box;
+//         box-shadow: 0 0 6px rgb(0 0 0 / 15%);
+//         border-radius: 10px;
+//         height: fit-content;
+//         display: flex;
+//         align-items: center;
+//         flex-direction: column;
+
+//         .tl-skills-card{
+//         }
+//     }
+
+// }
+
+

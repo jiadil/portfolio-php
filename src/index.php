@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Tab icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/images/tab-icon.png" />
+
     <!-- Argon CSS -->
     <link type="text/css" href="/css/argon-design-system.min.css" rel="stylesheet">
 
@@ -20,7 +23,6 @@
     <!-- style.css CSS Script -->
     <link rel="stylesheet" href="/css/style.css">
 
-
     <title>Jiadi Luo</title>
 </head>
 <body>
@@ -28,22 +30,15 @@
     <?php include("./content/navbar.php");?>
     <?php include("./content/main.php"); ?>
     <?php include("./content/footer.php"); ?>
-    
 
-
-    <!--==================== SCROLL TOP ====================-->
-    <a href="#" class="scrollup" id="scroll-up">
-      <i class="uil uil-arrow-up scrollup__icon"></i>
-    </a>
-    
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!--  Typewriter CSS Effect -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     
-    <!--==================== MAIN JS ====================-->
+    <!-- main.js -->
     <script src="js/main.js"></script>
-    
 
-
-   
 </body>
 </html>
