@@ -18,7 +18,7 @@
                     <p class="tl-home-intro-text-description">
                         I am an SFU student who is now pursuing my double degree in computing science and health sciences.
                     </p>
-                    <a href="#contact" class="button">
+                    <a href="#contact" class="tl-button">
                         <span>Contact Me</span>
                         <i class="uil uil-envelope-edit tl-button-icon"></i>
                     </a>

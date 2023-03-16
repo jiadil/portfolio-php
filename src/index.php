@@ -8,6 +8,9 @@
     <!-- Argon CSS -->
     <link type="text/css" href="/css/argon-design-system.min.css" rel="stylesheet">
 
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
     <!-- Unicorns CSS Script -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
@@ -16,6 +19,7 @@
 
     <!-- style.css CSS Script -->
     <link rel="stylesheet" href="/css/style.css">
+
 
     <title>Jiadi Luo</title>
 </head>
@@ -31,6 +35,9 @@
     <a href="#" class="scrollup" id="scroll-up">
       <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
+    
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     
     <!--==================== MAIN JS ====================-->
     <script src="js/main.js"></script>
