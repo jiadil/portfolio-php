@@ -1,18 +1,19 @@
 <main class="main">
+    <!-- Home -->
     <?php include("./content/section-home.php");?>
 
-    <!--==================== ABOUT ====================-->
+    <!-- About-->
     <?php include("./content/section-about.php");?>
 
-    <!--==================== SKILLS ====================-->
+    <!-- Skills -->
     <?php include("./content/section-skills.php");?>
 
-    <!--==================== QUALIFICATION ====================-->
+    <!-- Qualification -->
     <?php include("./content/section-qualification.php");?>
     
-    <!--==================== PORTFOLIO ====================-->
+    <!-- Portfolio -->
     <?php include("./content/section-portfolio.php");?>
 
-    <!--==================== Contact ====================-->
+    <!-- Contact -->
     <?php include("./content/section-contact.php");?>
 </main>

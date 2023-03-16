@@ -89,6 +89,19 @@ window.addEventListener("scroll", () => {
     }
 });
 
+
+/******************************************************************************
+ * Home
+ * Retrieved from https://www.npmjs.com/package/typewriter-effect
+ ******************************************************************************/
+new Typewriter("#typewriter", {
+    strings: ["Jiadi Luo", "Tian", ""],
+    autoStart: true,
+    loop: true,
+    cursor: "|"
+});
+
+
 /******************************************************************************
  * Skills
  ******************************************************************************/
@@ -109,12 +122,13 @@ skillsHeaders.forEach(skillHeader => {
 });
 
 
-
-//===================================== Portfolio Swiper =========================
-
+/******************************************************************************
+ * Portfolio
+ * Retrieved from https://codepen.io/bJhA/pen/NWjBaQb
+ ******************************************************************************/
 var swiper = new Swiper(".blog-slider", {
     spaceBetween: 30,
-    effect: 'fade',
+    effect: "fade",
     loop: true,
     mousewheel:{
         invert: false,
@@ -129,74 +143,17 @@ var swiper = new Swiper(".blog-slider", {
     },
     // mousewheel: true,
     keyboard: true,
-  });
-console.log("Portfolio Swiper is working!")
+});
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*==================== SHOW SCROLL UP ====================*/ 
-function scrollUp(){
-    const scrollUp = document.getElementById("scroll-up");
-    if(this.scrollY >= 560) scrollUp.classList.add("show-scroll"); else scrollUp.classList.remove("show-scroll")
-  }
-  window.addEventListener("scroll", scrollUp)
-
-
-
-/*==================== QUALIFICATION TABS ====================*/
-// const tabs = document.querySelectorAll("[data-target]"),
-//       tabContents = document.querySelectorAll("[data-content]")
-
-// tabs.forEach(tab => {
-//   tab.addEventListener("click", () => {
-//     console.log("click disparado")
-//     const target = document.querySelector(tab.dataset.target)
-
-//     tabContents.forEach(tabContent => {
-//       tabContent.classList.remove("qualification__active")
-//     })
-//     target.classList.add("qualification__active")
-
-//     tabs.forEach(tab => {
-//       tab.classList.remove("qualification__active")
-//     })
-//     tab.classList.add("qualification__active")
-//   })
-// })
-
-
-/*==================== PORTFOLIO SWIPER  ====================*/
-let swiperPortfolio = new Swiper(".portfolio__container", {
-    cssMode: true,
-    loop: true,
-  
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  
-    /* mousewheel: true,
-    keyboard: true, */
-  });
-
-
-
-
-
-
+/******************************************************************************
+ * Scroll up top
+ * Retrieved from https://codepen.io/bJhA/pen/NWjBaQb
+ ******************************************************************************/
+window.addEventListener("scroll", () => {
+    const scrollUp = document.getElementById("tl-scroll-up");
+    if (this.scrollY >= 560) {
+        scrollUp.classList.add("show-scroll");
+    } else {
+        scrollUp.classList.remove("show-scroll");
+    }
+});

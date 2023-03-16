@@ -27,6 +27,12 @@
     .tl-home-intro{
         .tl-home-intro-text-title {
             font-size: var(--big-font-size);
+            #typewriter {
+                font-size: var(--h2-font-size);
+                font-family: var(--robotomono-font);
+                font-weight: var(--font-medium);
+                color: var(--mainText);
+            }
         }
         .tl-home-intro-text-subtitle {
             font-size: var(--h3-font-size);

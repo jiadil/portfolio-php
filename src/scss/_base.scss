@@ -234,7 +234,7 @@ p {
 
 
 /*========== SCROLL UP ==========*/
-.scrollup {
+.tl-scroll-up {
   position: fixed;
   right: 1rem;
   bottom: -20%;
@@ -246,11 +246,11 @@ p {
   transition: .4s;
 }
 
-.scrollup:hover {
+.tl-scroll-up:hover {
   background-color: var(--first-color-alt);
 }
 
-.scrollup__icon {
+.tl-scroll-up-icon {
   font-size: 1.5rem;
   color: #FFF;
 }
