@@ -31,7 +31,7 @@
             </div>
 
             <div class="tl-about-download">
-                <a download="" href="pdf/Jiadi_Luo_resume.pdf" class="button tl-button-flex">
+                <a download="" href="pdf/Jiadi_Luo_resume.pdf" class="tl-button tl-button-flex">
                     <span>Download Resume</span>
                     <i class="uil uil-download-alt tl-button-icon"></i>
                 </a>

@@ -12,4 +12,7 @@
     
     <!--==================== PORTFOLIO ====================-->
     <?php include("./content/section-portfolio.php");?>
+
+    <!--==================== Contact ====================-->
+    <?php include("./content/section-contact.php");?>
 </main>

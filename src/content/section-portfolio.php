@@ -2,105 +2,47 @@
     <h2 class="tl-section-title" i18n="portfolio__title">Portfolio</h2>
     <span class="tl-section-subtitle" i18n="portfolio__subtitle">Most recent works</span>
 
-    <div class="portfolio__container tl-container swiper-container">
-        <div class="swiper-wrapper">
-            <!--==================== PORTFOLIO 1 ====================-->
+    <div class="tl-container">
+        <div class="blog-slider tl-container">
+            <div class="blog-slider__wrp swiper-wrapper">
+                
+                <!-- Start portfolio item 1 -->
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+                        <img src="https://res.cloudinary.com/bjha/image/upload/v1628002160/portfolio%20images/Twitter_SNS_f3ejqv.png" alt="Twitter type SNS ">
+                    </div>
 
-            <div class="portfolio__content tl-grid swiper-slide">
-                <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img"/>
-
-                <div class="portfolio_">
-                    <h3 class="portfolio__title" i18n="portfolio1__title">Modern Website</h3>
-                    <p class="portfolio__description" i18n="portfolio1__description">
-                        Website adaptable to all devices, with ui components and animated interactions.
-                    </p>
-                    <a href="https://gitee.com/asoutherncat/" target="_blank" class="button tl-button-flex button--small portfolio__button">
-                        Demo
-                        <i class="uil uil-arrow-right tl-button-icon"></i>
-                    </a>
+                    <div class="blog-slider__content">
+                        <span class="blog-slider__code"> July 2021</span>
+                        <div class="blog-slider__title"> Twitter Like SNS </div>
+                        <div class="blog-slider__text"> Designed a Twitter-like social network website for making posts and following users.</div>
+                        <a href="https://youtu.be/E1X5Q3lgO30" target="_blank" class="tl-button blog-slider__button"> 
+                            Demo
+                            <i class="uil uil-play button__icon"></i>
+                        </a>
+                    </div>
                 </div>
-            </div>
+                <!-- End portfolio item 1 -->
 
-            <!--==================== PORTFOLIO 2 ====================-->
+                <!-- Start portfolio item 2 -->
+                <div class="blog-slider__item swiper-slide">
+                    <div class="blog-slider__img">
+                        <img src="https://res.cloudinary.com/bjha/image/upload/v1628002160/portfolio%20images/ecommerce_django_built_rjii3g.png" alt="Portfolio item">
+                    </div>
 
-            <div class="portfolio__content tl-grid swiper-slide">
-                <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img"/>
-
-                <div class="portfolio_">
-                    <h3 class="portfolio__title" i18n="portfolio2__title">Modern Website</h3>
-                    <p class="portfolio__description" i18n="portfolio2__description">
-                        Website adaptable to all devices, with ui components and animated interactions.
-                    </p>
-                    <a href="https://gitee.com/asoutherncat/" target="_blank" class="button tl-button-flex button--small portfolio__button">
-                        Demo
-                        <i class="uil uil-arrow-right tl-button-icon"></i>
-                    </a>
+                    <div class="blog-slider__content">
+                        <span class="blog-slider__code"> December 2020</span>
+                        <div class="blog-slider__title"> E-commerce </div>
+                        <div class="blog-slider__text"> Designed an eBay-like e-commerce auction site that will allow users to post auction listings, place bids on listings, comment on those listings, and add listings to a “watchlist.” </div>
+                        <a href="https://www.youtube.com/watch?v=Zr6VA7Gl0yQ" target="_blank" class="tl-button blog-slider__button"> 
+                            Demo
+                            <i class="uil uil-play button__icon"></i>
+                        </a>
+                    </div>
                 </div>
-            </div>
-
-            <!--==================== PORTFOLIO 3 ====================-->
-
-            <div class="portfolio__content tl-grid swiper-slide">
-                <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img"/>
-
-                <div class="portfolio_">
-                    <h3 class="portfolio__title" i18n="portfolio3__title">Modern Website</h3>
-                    <p class="portfolio__description" i18n="portfolio3__description">
-                        Website adaptable to all devices, with ui components and animated interactions.
-                    </p>
-                    <a href="https://gitee.com/asoutherncat/" target="_blank" class="button tl-button-flex button--small portfolio__button">
-                        Demo
-                        <i class="uil uil-arrow-right tl-button-icon"></i>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <!-- add arrows-->
-        <div class="swiper-button-next">
-            <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
-        </div>
-
-        <div class="swiper-button-prev">
-            <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
-        </div>
-
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-    </div>
-</section>
-
-<!--==================== CONTACT ME ====================-->
-<section class="contact tl-section" id="contact">
-    <h2 class="tl-section-title" i18n="contact__title">Contact me</h2>
-    <span class="tl-section-subtitle" i18n="contact__subtitle">Get in touch</span>
-
-    <div class="contact__container tl-container tl-grid">
-        <div>
-            <div class="contact__information">
-                <i class="uil uil-phone-alt contact__icon"></i>
-
-                <div>
-                    <h3 class="contact__title" i18n="tel">Call me</h3>
-                    <span class="contact__subtitle" i18n="tel__number">166********</span>
-                </div>
-            </div>
-
-            <div class="contact__information">
-                <i class="uil uil-envelope contact__icon"></i>
-
-                <div>
-                    <h3 class="contact__title" i18n="email">E-mail</h3>
-                    <span class="contatc__subtitle" i18n="email__address">asoutherncat@gmail.com</span>
-                </div>
-            </div>
-
-            <div class="contact__information">
-                <i class="uil uil-map-marker contact__icon"></i>
-
-                <div>
-                    <h3 class="contact__title" i18n="location">Location</h3>
-                    <span class="contatc__subtitle" i18n="location__detail">HuNan , CHN</span>
-                </div>
+                <!-- End portfolio item 2 -->
+                
+                <div class="blog-slider__pagination"></div>
             </div>
         </div>
     </div>
