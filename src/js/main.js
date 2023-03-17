@@ -152,8 +152,8 @@ var swiper = new Swiper(".blog-slider", {
 window.addEventListener("scroll", () => {
     const scrollUp = document.getElementById("tl-scroll-up");
     if (this.scrollY >= 560) {
-        scrollUp.classList.add("show-scroll");
+        scrollUp.classList.add("tl-show-scroll");
     } else {
-        scrollUp.classList.remove("show-scroll");
+        scrollUp.classList.remove("tl-show-scroll");
     }
 });

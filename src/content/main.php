@@ -1,4 +1,4 @@
-<main class="main">
+<main class="tl-main">
     <!-- Home -->
     <?php include("./content/section-home.php");?>
 

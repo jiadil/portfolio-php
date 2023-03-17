@@ -24,7 +24,11 @@
     align-items: center;
     height: var(--header-height);
 
-    .tl-nav-title,
+    .tl-nav-title {
+        color: var(--first-color-alt);
+        font-weight: var(--font-medium);
+    }
+
     .tl-nav-button-toggle {
         color: var(--title-color);
         font-weight: var(--font-medium);
@@ -54,11 +58,11 @@
                     text-transform: capitalize;
                 
                     &:hover{
-                        color: var(--first-color);
+                        color: var(--first-color-alt);
                     }
             
                     &.tl-nav-menu-item-link-active {
-                        color: var(--first-color);
+                        color: var(--first-color-alt);
                     }
                 
                     .tl-nav-menu-item-icon{
@@ -92,7 +96,7 @@
             cursor: pointer;
 
             &:hover {
-                color: var(--first-color);
+                color: var(--first-color-alt);
             }
         }
 

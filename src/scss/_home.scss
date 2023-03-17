@@ -31,7 +31,7 @@
                 font-size: var(--h2-font-size);
                 font-family: var(--robotomono-font);
                 font-weight: var(--font-medium);
-                color: var(--mainText);
+                color: var(--first-color-alt);
             }
         }
         .tl-home-intro-text-subtitle {
@@ -53,6 +53,10 @@
             transition: .3s;
             &:hover {
                 transform: translateY(0.25rem);
+                color: var(--first-color-alt);
+                .tl-home-scroll-name {
+                    color: var(--first-color-alt);
+                }
             }
 
             .tl-home-scroll-mouse {
