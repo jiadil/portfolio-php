@@ -8,14 +8,14 @@
 	max-width: 800px;
 	margin: auto;
 	background: #fff;
-	box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+	box-shadow: 0px 14px 80px var(--light-color);
 	padding: 25px;
 	border-radius: 25px;
 	height: 400px;
 	transition: all 0.3s;
     background-color: var(--background-body-color);
     border-style: var(--border-style);
-    border-color: var(--border-color); 
+    border-color: var(--first-color-alt-border); 
 }
 @media screen and (max-width: 992px) {
 	.blog-slider {
@@ -102,7 +102,7 @@
 	flex-shrink: 0;
 	height: 300px;
 	background-image: var(--gradient-first);
-	box-shadow: 4px 13px 30px 1px rgba(57, 158, 218, 0.2);
+	box-shadow: 4px 13px 30px 1px var(--light-color);
 	border-radius: 20px;
 	transform: translateX(-80px);
 	overflow: hidden;
@@ -186,7 +186,7 @@
 	padding: 15px 35px;
 	border-radius: 50px;
 	color: #fff;
-	box-shadow: 0px 14px 80px rgba(76, 56, 252, 0.4);
+	box-shadow: 0px 14px 80px var(--light-color);
 	text-decoration: none;
 	/* font-weight: 500; */
 	justify-content: center;
@@ -253,7 +253,7 @@
 	opacity: 1;
 	background: var(--first-color-alt);
 	height: 30px;
-	box-shadow: 0px 0px 20px rgba(252, 56, 56, 0.3);
+	box-shadow: 0px 0px 20px var(--light-color);
 }
 @media screen and (max-width: 768px) {
 	.blog-slider__pagination .swiper-pagination-bullet-active {

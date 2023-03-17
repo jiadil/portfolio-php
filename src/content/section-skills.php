@@ -125,6 +125,30 @@
                 </div>
             </div>
 
+            <!-- Skill 11 -->
+            <div class="tl-skills-card-container">
+                <div class="tl-skills-card tl-skills-card-shadow">
+                    <div class="tl-skills-card-icon">
+                        <i class="fa-brands fa-bootstrap"></i>
+                    </div>
+                    <div class="tl-skills-card-text">
+                        <h2>Bootstrap</h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skill 12 -->
+            <div class="tl-skills-card-container">
+                <div class="tl-skills-card tl-skills-card-shadow">
+                    <div class="tl-skills-card-icon">
+                        <i class="fa-brands fa-bootstrap"></i>
+                    </div>
+                    <div class="tl-skills-card-text">
+                        <h2>Bootstrap</h2>
+                    </div>
+                </div>
+            </div>
+
             
         </div>
 

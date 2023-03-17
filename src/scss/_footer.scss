@@ -25,7 +25,7 @@
                 overflow: hidden;
     
                 &:hover {
-                    color: var(--first-color-lighter);
+                    color: var(--first-color-alt);
                 }
             }
         }
@@ -36,7 +36,7 @@
             row-gap: 1.5rem;
     
             .tl-footer-item-link:hover {
-                color: var(--first-color-lighter);
+                color: var(--first-color-alt);
             }
         }
     }
