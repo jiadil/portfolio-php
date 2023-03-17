@@ -50,6 +50,33 @@
 }
 
 /////////////////////////////////////////////////////////////
+/// Scroll up top
+.tl-scroll-up {
+    position: fixed;
+    right: 1rem;
+    bottom: -20%;
+    background-color: var(--first-color);
+    opacity: .8;
+    padding: 0 .3rem;
+    border-radius: .4rem;
+    z-index: var(--z-tooltip);
+    transition: .4s;
+
+    &:hover {
+        background-color: var(--first-color-alt);
+    }
+}
+
+.tl-scroll-up-icon {
+    font-size: 1.5rem;
+    color: #FFF;
+}
+
+.tl-show-scroll {
+  bottom: 1rem;
+}
+
+/////////////////////////////////////////////////////////////
 /// Media
 // >= 568px
 @media screen and (min-width: 568px) {
