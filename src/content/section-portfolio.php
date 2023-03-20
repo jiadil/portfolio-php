@@ -9,16 +9,18 @@
                 <!-- Start portfolio item 1 -->
                 <div class="blog-slider__item swiper-slide">
                     <div class="blog-slider__img">
-                        <img src="https://res.cloudinary.com/bjha/image/upload/v1628002160/portfolio%20images/Twitter_SNS_f3ejqv.png" alt="Twitter type SNS ">
+                        <img src="images/tl-portfolio-1.png" alt="Twitter type SNS ">
                     </div>
 
                     <div class="blog-slider__content">
-                        <span class="blog-slider__code"> July 2021</span>
-                        <div class="blog-slider__title"> Twitter Like SNS </div>
-                        <div class="blog-slider__text"> Designed a Twitter-like social network website for making posts and following users.</div>
-                        <a href="https://youtu.be/E1X5Q3lgO30" target="_blank" class="tl-button blog-slider__button"> 
-                            Demo
-                            <i class="uil uil-play button__icon"></i>
+                        <span class="blog-slider__code"> August 2022</span>
+                        <div class="blog-slider__title"> Strata Management Company Database </div>
+                        <div class="blog-slider__text"> 
+                            Design a database and a web page for a simulated strata management system consisting of all the relevant information using XAMPP with MySQL, PHP, Bootstrap, and JS and has various data relationships like one-to-one, one-to-many, and many-to-many.
+                        </div>
+                        <a href="https://github.com/jiadil/CMPT354-SQL-strata" target="_blank" class="tl-button blog-slider__button"> 
+                            Source Code
+                            <i class="fa-solid fa-code"></i>
                         </a>
                     </div>
                 </div>
@@ -27,14 +29,14 @@
                 <!-- Start portfolio item 2 -->
                 <div class="blog-slider__item swiper-slide">
                     <div class="blog-slider__img">
-                        <img src="https://res.cloudinary.com/bjha/image/upload/v1628002160/portfolio%20images/ecommerce_django_built_rjii3g.png" alt="Portfolio item">
+                        <img src="" alt="Portfolio item">
                     </div>
 
                     <div class="blog-slider__content">
-                        <span class="blog-slider__code"> December 2020</span>
-                        <div class="blog-slider__title"> E-commerce </div>
-                        <div class="blog-slider__text"> Designed an eBay-like e-commerce auction site that will allow users to post auction listings, place bids on listings, comment on those listings, and add listings to a “watchlist.” </div>
-                        <a href="https://www.youtube.com/watch?v=Zr6VA7Gl0yQ" target="_blank" class="tl-button blog-slider__button"> 
+                        <span class="blog-slider__code"> May 2022</span>
+                        <div class="blog-slider__title"> Moment website </div>
+                        <div class="blog-slider__text"> Designed flexible page layouts with custom navigation and animated buttons using Bootstrap, creating an accessible user interface with HTML5, modern CSS, Bootstrap, and JS, and collecting data with MongoDB. </div>
+                        <a href="https://aqueous-crag-12779.herokuapp.com/" target="_blank" class="tl-button blog-slider__button"> 
                             Demo
                             <i class="uil uil-play button__icon"></i>
                         </a>

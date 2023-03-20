@@ -27,7 +27,7 @@
                                 <h5>
                                     <span class="tl-qualification-calendar badge">
                                         <i class="tl-qualification-calendar-icon uil uil-calendar-alt"></i>
-                                        2021
+                                        2018
                                     </span>
                                 </h5>
 
@@ -45,63 +45,26 @@
                                     <div class="card-body">
                                         <div class="tl-qualification-task">
                                             <div class="tl-qualification-abstract">
-                                                <h3 class="tl-qualification-title">CS50</h3>
-                                                <p class="tl-qualification-subtitle">Harvard - MOOC</p>
+                                                <h3 class="tl-qualification-title"> BSc Computing Science | BSc Health Sciences read in Life Sciences </h3>
+                                                <p class="tl-qualification-subtitle">
+                                                    Simon Fraser University
+                                                    <br>2018 - Present
+                                                </p>
                                             </div>
                                             <div class="tl-qualification-details">
-                                                <p class="tl-qualification-subtitle">Built Web-design skills</p>
+                                                <p class="tl-qualification-subtitle">
+                                                    CGPA: 3.85
+                                                    <br>President's Honor Roll, 2020-2021
+                                                    <br>Dean's Honor Roll, 2019-2021
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Timeline item 2 -->
-                        <div class="row">
-                            <!-- Timeline design -->
-                            <div class="col-auto text-center flex-column d-sm-flex">
-                                <div class="tl-qualification-journey row h-50">
-                                    <div class="col">
-                                        <span class="tl-qualification-line"></span>
-                                    </div>
-                                    <div class="col">&nbsp;</div>
-                                </div>
-
-                                <h5>
-                                    <span class="tl-qualification-calendar badge">
-                                        <i class="tl-qualification-calendar-icon uil uil-calendar-alt"></i>
-                                        2021
-                                    </span>
-                                </h5>
-
-                                <div class="tl-qualification-journey row h-50">
-                                    <div class="col">
-                                        <span class="tl-qualification-line"></span>
-                                    </div>
-                                    <div class="col">&nbsp;</div>
-                                </div>
-                            </div>
-                        
-                            <!-- Timeline content Events -->
-                            <div class="col py-2">
-                                <div class="tl-qualification-education-card tl-qualification-card-transparent tl-qualification-card-shadow tl-qualification-card-mirror-face card">
-                                    <div class="card-body">
-                                        <div class="tl-qualification-task">
-                                            <div class="tl-qualification-abstract">
-                                                <h3 class="tl-qualification-title">CS50</h3>
-                                                <p class="tl-qualification-subtitle">Harvard - MOOC</p>
-                                            </div>
-                                            <div class="tl-qualification-details">
-                                                <p class="tl-qualification-subtitle">Built Web-design skills</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                         <!-- Timeline item end -->
+
                         <div class="row">
                             <!-- Timeline design -->
                             <div class="col-auto text-center flex-column d-sm-flex">
@@ -144,7 +107,7 @@
                                 <h5>
                                     <span class="tl-qualification-calendar badge">
                                         <i class="tl-qualification-calendar-icon uil uil-calendar-alt"></i>
-                                        2020
+                                        2022
                                     </span>
                                 </h5>
 
@@ -162,11 +125,21 @@
                                     <div class="card-body">
                                         <div class="tl-qualification-task">
                                             <div class="tl-qualification-abstract">
-                                                <h3 class="tl-qualification-title"> StartUp - Co-owner </h3>
-                                                <p class="tl-qualification-subtitle"> Ejalo Academy </p>
+                                                <h3 class="tl-qualification-title"> Web Developer </h3>
+                                                <p class="tl-qualification-subtitle">
+                                                    7Sage
+                                                    <br>September 2022 - Present
+                                                </p>
                                             </div>
                                             <div class="tl-qualification-details">
-                                                <p class="tl-qualification-subtitle"> A startup based on providing knowledge to students stuck at home and unable to reach educational resources. Provision of resources through the virtual platform and constant engagement. </p>
+                                                <p class="tl-qualification-subtitle"> 
+                                                    Developed and maintained LSAT exam prep website with 200K+ users
+                                                    <br><br>Utilized JavaScript, jQuery, PHP, and SQL for efficient code
+                                                    <br><br>Designed and developed front-end/back-end with WordPress
+                                                    <br><br>Collaborated with team to implement new features and optimize performance
+                                                    <br><br>Containerized website with Docker to streamline development
+                                                    <br><br>Managed code repository on GitHub and improved user experience
+                                                </p>
                                             </div>
                                         </div>
                                     </div>

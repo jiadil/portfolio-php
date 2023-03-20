@@ -17,9 +17,9 @@
                         Hi, I'm <div id="typewriter"></div>
                     </h1>
                     
-                    <h3 class="tl-home-intro-text-subtitle">Student at Simon Fraser University</h3>
+                    <!-- <h3 class="tl-home-intro-text-subtitle">Student at Simon Fraser University</h3> -->
                     <p class="tl-home-intro-text-description">
-                        I am an SFU student who is now pursuing my double degree in computing science and health sciences.
+                        I am a student at Simon Fraser University pursuing a double degree in Health Sciences and Computing Sciences.
                     </p>
                     <a href="#contact" class="tl-button tl-button-flex">
                         <span>Contact Me</span>

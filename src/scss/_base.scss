@@ -16,13 +16,13 @@
     --first-color: hsl(var(--hue-color), 0%, 14%);
     --first-color-second: hsl(var(--hue-color), 0%, 61%);
     --first-color-alt: hsl(var(--hue-color), 63%, 68%);
-    --first-color-alt-border: white;
+    --first-color-alt-border: var(--body-color);
     --first-color-lighter: hsl(var(--hue-color), 0%, 85%);
     --title-color: hsl(var(--hue-color), 0%, 15%);
     --text-color: hsl(var(--hue-color), 0%, 45%);
     --text-color-light: hsl(var(--hue-color), 0%, 65%);
     --input-color: hsl(var(--hue-color), 0%, 96%);
-    --body-color: hsl(var(--hue-color), 0%, 99%);
+    --body-color: hsl(var(--hue-color), 32%, 94%);
     --container-color: hsl(var(--hue-color), 0%, 98%);
     --scroll-bar-color: hsl(var(--hue-color), 0%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 0%, 80%);

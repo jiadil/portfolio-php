@@ -1,7 +1,7 @@
 <section class="skills tl-section" id="skills">
     <h2 class="tl-section-title">Skills</h2>
     
-    <span class="tl-section-subtitle">My technical level</span>
+    <span class="tl-section-subtitle">My skillsets</span>
 
     <div class="tl-skills-container tl-container tl-grid">
         <div class="tl-row">
@@ -9,7 +9,7 @@
             <div class="tl-skills-card-container">
                 <div class="tl-skills-card tl-skills-card-shadow">
                     <div class="tl-skills-card-icon">
-                        <i class="uil uil-html5"></i>
+                        <i class="uil uil-html5-alt"></i>
                     </div>
                     <div class="tl-skills-card-text">
                         <h2>HTML</h2>
@@ -33,7 +33,7 @@
             <div class="tl-skills-card-container">
                 <div class="tl-skills-card tl-skills-card-shadow">
                     <div class="tl-skills-card-icon">
-                        <i class="fa-brands fa-css3-alt"></i>
+                        <i class="uil uil-css3-simple"></i>
                     </div>
                     <div class="tl-skills-card-text">
                         <h2>CSS/SCSS</h2>
@@ -105,7 +105,7 @@
             <div class="tl-skills-card-container">
                 <div class="tl-skills-card tl-skills-card-shadow">
                     <div class="tl-skills-card-icon">
-                        <i class="fa-brands fa-bootstrap"></i>
+                        <i class="uil uil-visual-studio"></i>
                     </div>
                     <div class="tl-skills-card-text">
                         <h2>VSCode</h2>
@@ -117,10 +117,10 @@
             <div class="tl-skills-card-container">
                 <div class="tl-skills-card tl-skills-card-shadow">
                     <div class="tl-skills-card-icon">
-                        <i class="fa-brands fa-bootstrap"></i>
+                        <i class="fa-regular fa-c"></i>
                     </div>
                     <div class="tl-skills-card-text">
-                        <h2>Bootstrap</h2>
+                        <h2>C/C++</h2>
                     </div>
                 </div>
             </div>
@@ -129,10 +129,10 @@
             <div class="tl-skills-card-container">
                 <div class="tl-skills-card tl-skills-card-shadow">
                     <div class="tl-skills-card-icon">
-                        <i class="fa-brands fa-bootstrap"></i>
+                        <i class="uil uil-linux"></i>
                     </div>
                     <div class="tl-skills-card-text">
-                        <h2>Bootstrap</h2>
+                        <h2>Linux</h2>
                     </div>
                 </div>
             </div>
@@ -141,10 +141,10 @@
             <div class="tl-skills-card-container">
                 <div class="tl-skills-card tl-skills-card-shadow">
                     <div class="tl-skills-card-icon">
-                        <i class="fa-brands fa-bootstrap"></i>
+                        <i class="uil uil-code-branch"></i>
                     </div>
                     <div class="tl-skills-card-text">
-                        <h2>Bootstrap</h2>
+                        <h2>Git</h2>
                     </div>
                 </div>
             </div>

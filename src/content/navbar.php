@@ -48,7 +48,7 @@
                     <div class="tl-nav-menu-item-wrapper">
                         <a href="#contact" class="tl-nav-menu-item-link">
                             <i class="uil uil-message tl-nav-menu-item-icon"></i>
-                            <p>Contact Me</p>
+                            <p>Contact</p>
                         </a>
                     </div>
                 </li>
