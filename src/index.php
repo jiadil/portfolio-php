@@ -31,12 +31,12 @@
     <?php include("./content/main.php"); ?>
     <?php include("./content/footer.php"); ?>
 
+    <!--  Typewriter CSS Effect -->
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <!--  Typewriter CSS Effect -->
-    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-    
     <!-- main.js -->
     <script src="js/main.js"></script>
 

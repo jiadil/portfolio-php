@@ -11,7 +11,7 @@
             </div>
 
             <div class="tl-home-intro">
-                <img class="tl-home-intro-image" src="images/IMG_0258.JPG" alt="Italian Trulli">
+                <img class="tl-home-intro-image" src="images/home.jpeg">
                 <div class="tl-home-intro-text">
                     <h1 class="tl-home-intro-text-title">
                         Hi, I'm <div id="typewriter"></div>
