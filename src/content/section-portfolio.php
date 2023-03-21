@@ -9,7 +9,7 @@
                 <!-- Start portfolio item 1 -->
                 <div class="blog-slider__item swiper-slide">
                     <div class="blog-slider__img">
-                        <img src="images/tl-portfolio-1.png" alt="Twitter type SNS ">
+                        <img src="src/images/tl-portfolio-1.png" alt="Twitter type SNS ">
                     </div>
 
                     <div class="blog-slider__content">

@@ -6,6 +6,6 @@ services:
     ports:
       - 8089:80
     volumes:
-      - ./src:/var/www/html/
+      - ../portfolio:/var/www/html/
     networks:
       - default

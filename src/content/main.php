@@ -1,19 +1,19 @@
 <main class="tl-main">
     <!-- Home -->
-    <?php include("./content/section-home.php");?>
+    <?php include("section-home.php");?>
 
     <!-- About-->
-    <?php include("./content/section-about.php");?>
+    <?php include("section-about.php");?>
 
     <!-- Skills -->
-    <?php include("./content/section-skills.php");?>
+    <?php include("section-skills.php");?>
 
     <!-- Qualification -->
-    <?php include("./content/section-qualification.php");?>
+    <?php include("section-qualification.php");?>
     
     <!-- Portfolio -->
-    <?php include("./content/section-portfolio.php");?>
+    <?php include("section-portfolio.php");?>
 
     <!-- Contact -->
-    <?php include("./content/section-contact.php");?>
+    <?php include("section-contact.php");?>
 </main>

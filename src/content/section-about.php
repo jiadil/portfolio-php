@@ -4,7 +4,7 @@
     <span class="tl-section-subtitle">My name is Jiadi Luo but you can also call me Tian</span>
     
     <div class="tl-about-container tl-container tl-grid">
-        <img class="tl-about-image" src="images/me.jpeg" alt="">
+        <img class="tl-about-image" src="src/images/me.jpeg" alt="">
 
         <div class="tl-about-data">
             <p class="tl-about-description">

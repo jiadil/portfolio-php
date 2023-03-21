@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Tab icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="/images/tab-icon.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="src/images/tab-icon.png" />
 
     <!-- Argon CSS -->
-    <link type="text/css" href="/css/argon-design-system.min.css" rel="stylesheet">
+    <link type="text/css" href="src/css/argon-design-system.min.css" rel="stylesheet">
 
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
@@ -21,15 +21,16 @@
     <script src="https://kit.fontawesome.com/02d3434a8a.js" crossorigin="anonymous"></script>
 
     <!-- style.css CSS Script -->
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="src/css/style.css">
 
     <title>Jiadi Luo</title>
 </head>
 <body>
-    
-    <?php include("./content/navbar.php");?>
-    <?php include("./content/main.php"); ?>
-    <?php include("./content/footer.php"); ?>
+
+    <?php include("src/content/navbar.php");?>
+    <?php include("src/content/main.php"); ?>
+    <?php include("src/content/footer.php"); ?>
+
 
     <!--  Typewriter CSS Effect -->
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
@@ -38,7 +39,7 @@
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <!-- main.js -->
-    <script src="js/main.js"></script>
+    <script src="src/js/main.js"></script>
 
 </body>
 </html>
